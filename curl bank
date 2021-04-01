@@ -1,0 +1,11 @@
+curl -X GET \
+  http://bank-part-1-2.herokuapp.com/api/branches?q=RTGS&limit=10&offset=0 \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxMyIsInVuaXF1ZV9uYW1lIjoiYjQ1aSIsIm5iZiI6MTU3MTQ2OTQyMCwiZXhwIjoxNTcxOTAxNDIwLCJpYXQiOjE1NzE0Njk0MjB9.el9TWNitPDQJ0HkJIEpcJZPrJ3zUnN7mwh0xTGcBYfA' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: bank-part-1-2.herokuapp.com' \
+  -H 'Postman-Token: 3a79b942-2315-4e48-940a-ebccf930220a,154d2f94-45c5-4914-9991-359d6f958645' \
+  -H 'User-Agent: PostmanRuntime/7.18.0' \
+  -H 'cache-control: no-cache'

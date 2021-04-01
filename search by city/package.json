@@ -1,0 +1,21 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Searchbycity",
+  "scripts": {
+    "start": "node Searchbycity.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "pg": "^8.5.1"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "6.14.6"
+  }
+}
